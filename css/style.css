@@ -127,3 +127,10 @@ figure {
 .watch-now {
     margin: 0 auto;
 }
+
+#video-trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
