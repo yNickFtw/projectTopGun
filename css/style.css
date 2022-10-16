@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+* {
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#logo-img {
+    width: 350px;
+}
+
+ul li {
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-link {
+    transition: 0.3s;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: yellow;
+}
+
+#border-btn {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    transition: 0.3s;
+    color: black;
+}
+
+#border-btn:hover {
+    color: white;
+    transition: 0.3s;
+    background-color: rgb(38, 38, 139);
+}
+
+.main-to-aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+}
+
+
+
+.card-aside {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    transition: transform .1s linear;
+}
+
+.card-aside:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-items {
+    border: 5px solid black;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.container-items:hover {
+    transform: scale(1.1);
+}
+
+.cards {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-artigo {
+    width: 100%;
+}
+
+figure {
+    float: left;
+}
+
+.watch-now {
+    margin: 0 auto;
+}
